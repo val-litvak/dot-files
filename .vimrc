@@ -23,3 +23,4 @@ if $COLORTERM == 'gnome-terminal'
 else
   colorscheme default
 endif
+
