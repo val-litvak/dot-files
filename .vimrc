@@ -5,6 +5,7 @@ call vundle#begin()               " vundle required
 Plugin 'gmarik/Vundle.vim'        " vundle required
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'edsono/vim-matchit'
 call vundle#end()            " vundle required
 filetype plugin indent on    " vundle required
 
