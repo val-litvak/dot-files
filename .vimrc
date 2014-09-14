@@ -5,10 +5,13 @@ call vundle#begin()               " vundle required
 Plugin 'gmarik/Vundle.vim'        " vundle required
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'edsono/vim-matchit'
+Plugin 'vim-scripts/ruby-matchit'
+Plugin 'tmhedberg/matchit'
+Plugin 'kien/ctrlp.vim'
 call vundle#end()            " vundle required
 filetype plugin indent on    " vundle required
 
+syntax on
 set t_Co=256
 colorscheme railscasts
 
