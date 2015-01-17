@@ -30,3 +30,5 @@ set nowrap
 imap jj <ESC>
 nnoremap ; :
 nnoremap : ;
+
+let g:NERDTreeDirArrows = 0
