@@ -17,6 +17,7 @@ set t_Co=256
 colorscheme railscasts
 
 set number
+set ruler
 set tabstop=2
 set expandtab
 set shiftwidth=2
@@ -27,9 +28,13 @@ set smarttab
 set autoindent
 set cindent
 set nowrap
+set cursorline
 
 imap jj <ESC>
 nnoremap ; :
 nnoremap : ;
 
 let g:NERDTreeDirArrows = 0
+
+let &colorcolumn=join(range(81,999),",")
+let &colorcolumn="80,".join(range(400,999),",")
