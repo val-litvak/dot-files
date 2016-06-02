@@ -1,4 +1,3 @@
-set encoding=utf-8 " fixes nerdtree arrows on linux
 set nocompatible              " be iMproved, required
 filetype off                      " vundle required
 set rtp+=~/.vim/bundle/Vundle.vim " vundle required
@@ -36,6 +35,8 @@ nnoremap ; :
 nnoremap : ;
 
 let g:NERDTreeDirArrows = 0
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
 
-let &colorcolumn=join(range(81,999),",")
-let &colorcolumn="80,".join(range(400,999),",")
+" let &colorcolumn=join(range(81,999),",")
+" let &colorcolumn="80,".join(range(400,999),",")
