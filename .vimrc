@@ -1,3 +1,4 @@
+set encoding=utf-8 " fixes nerdtree arrows on linux
 set nocompatible              " be iMproved, required
 filetype off                      " vundle required
 set rtp+=~/.vim/bundle/Vundle.vim " vundle required
