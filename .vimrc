@@ -9,6 +9,7 @@ Plugin 'vim-scripts/ruby-matchit'
 Plugin 'tmhedberg/matchit'
 Plugin 'kien/ctrlp.vim'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'dansomething/vim-eclim'
 call vundle#end()            " vundle required
 filetype plugin indent on    " vundle required
 
