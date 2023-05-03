@@ -27,6 +27,7 @@ set autoindent
 set cindent
 set nowrap
 set cursorline
+set hlsearch
 set clipboard=unnamed
 
 imap jj <ESC>
